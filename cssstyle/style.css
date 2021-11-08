@@ -19,10 +19,11 @@ body {
 	display: inline-block;
 }
 
-.container-one p {
-    color: hsl(204, 43%, 93%);
-	opacity: 0.8;
+.container-one .pricetwo {
+    color: #fff;
+    font-weight: bold;
 }
+
 
 .container-two {
 	background: hsl(179, 62%, 43%);
@@ -45,7 +46,7 @@ body {
 	margin-bottom: .5rem;
 }
 
-h1::after {
+.pricetwo::after {
 	content: 'per month';
 	color: hsl(204, 43%, 93%);
 	opacity: 0.5;
@@ -121,9 +122,17 @@ h2:nth-of-type(1) {
 	padding-left: 1.5rem;
 }
 
+.pricetwo {
+	font-size: 190%;
+	margin-bottom: .5rem;
+	color: #fff;
+	font-weight: 300;
+	opacity: unset;
+}
+
 a {
 	padding: 0.7rem 2rem;
-	margin: 2rem 1.5rem 1.5rem 1.5rem;
+	margin: 1rem 1.5rem 1.5rem 1.5rem;
 	display: block;
 }
 
